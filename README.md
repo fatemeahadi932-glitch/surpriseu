@@ -1,4 +1,5 @@
-# surpriseu<!DOCTYPE html>
+#surpriseu
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
@@ -61,35 +62,11 @@
         }
     </style>
 </head>
-<body
-    <div class="container" id="content">
-        <h1 id="titleText">اولین سالگرد با هم بودنمون مبارک... ❤️</h1>
-        <p id="descText">  یک سال از روزی که دست‌هامون رو توی دست هم گذاشتیم گذشت.<b
-            مرسی که در کنار تمام بالا و پایین‌ها، پناه‌می و با حضور قشنگت به زندگی‌ام دلگرمی میدی.<br>  این اولین سالگرد، تازه شروع قشنگی‌های مسیرمونه...
-        <button id="playButtoonclick="playMusic()">پخش موزیک خاطره‌مون 🎵</button>
-    </div>
+<body>
 
-    <!-- فایل موسیقی -->
-    <audio id="myAudio">
-        <source src="music.mp3" type="audio/mpeg">
-        مرورگر شما از پخش موسیقی پشتیبانی نمی‌کند.
-    </audio>
-
-    <script>
-        function playMusic() {
-            var audio = document.getElementById("myAudio");
-            var btn = document.getElementById("playButton");
-            
-            audio.play();
-            
-            // مخفی کردن دکمه و زیباتر کردن فضا بعد از کلیک
-            btn.style.display = "none";
-            
-            // تغییر متن برای تاثیرگذاری بیشتر
+      <h1 id="titleText">اولین سالگرد با هم بودنمون مبارک... ❤️
+            یک سال از روزی که دست‌هامون رو توی دست هم گذاشتیم گذشت.<br>
+      مرسی که در کنار تمام بالا و پایین‌ها، پناه‌می و با حضور قشنگت به زندگی‌ام دلگرمی میدی.       این اولین سالگرد، تازه شروع قشنگی‌های مسیرمونه... 🎀
+       
             document.getElementById("titleText").innerHTML = "همیشه کنارت می‌مونم... 💍";
             document.getElementById("descText").innerHTML = "تا ابد و یک روز، عاشقتم عشق من.";
-        }
-    </script>
-
-</body>
-</html>
